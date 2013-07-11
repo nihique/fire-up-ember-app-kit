@@ -2,7 +2,7 @@ var ApplicationRoute = Ember.Route.extend({
 
   model: function () {
     return { 
-      appName: "Fire Up Ember"
+      appName: "Fire Up Ember.js"
     };
   }
   
