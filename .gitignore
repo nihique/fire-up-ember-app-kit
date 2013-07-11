@@ -18,3 +18,10 @@
 
 /node_modules
 /.sass-cache
+
+
+##############
+### Martin ###
+##############
+
+*.sublime-workspace
