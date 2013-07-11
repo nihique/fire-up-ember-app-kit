@@ -2,11 +2,12 @@
 	"folders":
 	[
 		{
-			"path": "/C/Users/Martin/Code/fire-up-ember-app-kit",
-      "folder_exclude_patterns": [
-        "node_modules",
-        "tmp"
-      ]
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"tmp"
+			],
+			"path": "/C/Users/Martin/Code/fire-up-ember-app-kit"
 		}
 	]
 }
