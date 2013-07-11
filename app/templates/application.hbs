@@ -1,3 +1,21 @@
-<h1>{{appName}}</h1>
+<div class="container">
 
-{{outlet}}
+    <header class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#/">{{appName}}</a>
+                <ul class="nav">
+                    <li>{{#linkTo 'index'}}Home{{/linkTo}}</li>
+                    <li class="active">{{#linkTo 'ordr'}}Order Manager{{/linkTo}}</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section id="main" class="container">
+        <div class="row">
+            {{outlet}}
+        </div>
+    </section>
+
+</div>
