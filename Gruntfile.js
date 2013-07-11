@@ -26,7 +26,7 @@ module.exports = function(grunt) {
                      // Uncomment this line & `npm install --save-dev grunt-sass` for SASS support.
                      // 'sass:compile',
                      // Uncomment this line & `npm install --save-dev grunt-contrib-less` for LESS support.
-                     // 'less:compile'
+                     'less:compile',
                      'concat',
                      'unlock' ]);
 
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
                      'build:debug', 'karma:server', 'connect', 'watch:test']);
 
   grunt.registerTask('server', "Run your server in development mode, auto-rebuilding when files change.",
-                     ['build:debug', 'connect', 'watch']);
+                     ['build:debug', 'connect', 'watch:main']);
   grunt.registerTask('server:dist', "Preview production (minified) assets.",
                      ['build:dist', 'connect:server:keepalive']);
 };
