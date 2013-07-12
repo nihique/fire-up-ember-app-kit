@@ -1,5 +1,18 @@
-<ul>
-  {{#each model}}
-    <li>{{this}}</li>
-  {{/each}}
-</ul>
+<section class="span12 hero-unit">
+  <h1>Welcome to Fire Up Ember.js</h1>
+  <p>
+    This is demo app based on Peepcode's learning video <a href=""><strong>Fire Up Ember.js</strong></a>. 
+  </p> 
+  {{#linkTo "tables" class="btn btn-primary"}}Go to Ordr »{{/linkTo}}
+</section>
+
+<section class="span12">
+  <h2>Index</h2>
+  <p>This is Index route that should display list of colors.</p>
+  <h3>Colors</h3>
+  <ul>
+    {{#each model}}
+      <li>{{this}}</li>
+    {{/each}}
+  </ul>
+</section>

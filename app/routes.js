@@ -1,9 +1,7 @@
 function Routes() {
 
-  this.resource('ordr', function() {
-    this.resource('tables', function () {
-      this.resource('table', function () {
-      });
+  this.resource('tables', function () {
+    this.resource('table', { path: 'table/:table_id' }, function () {
     });
   });
 
