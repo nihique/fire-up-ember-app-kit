@@ -5,6 +5,7 @@
 			"folder_exclude_patterns":
 			[
 				"node_modules",
+				"bower_components",
 				"tmp"
 			],
 			"path": "/C/Users/Martin/Code/fire-up-ember-app-kit"
