@@ -24,4 +24,5 @@
 ### Martin ###
 ##############
 
-*.sublime-workspace
+/*.sublime-workspace
+/bower_components
