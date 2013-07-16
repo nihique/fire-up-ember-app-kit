@@ -1,7 +1,7 @@
-var Todo = DS.Model.extend({
+var Table = DS.Model.extend({
 });
 
-Todo.FIXTURES = [
+Table.FIXTURES = [
   {
     id: 1
   },
@@ -22,4 +22,4 @@ Todo.FIXTURES = [
   }
 ];
 
-export default Todo;
+export default Table;

@@ -1,9 +1,9 @@
-import Todo from 'appkit/models/todo';
+import Table from 'appkit/models/table';
 
 var TableRoute = Ember.Route.extend({
 
   model: function (params) {
-    return Todo.find(params.table_id);
+    return Table.find(params.table_id);
   }
 
 });
