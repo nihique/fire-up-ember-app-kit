@@ -3,6 +3,8 @@
 {{#with tab}}
   <h3>Tab {{id}}</h3>
   <ul>
-    <li>todo</li>
+    {{#each tabItem}}
+      <li><strong>{{food.name}}</strong> for <em>{{cents}} cents</em></li>
+    {{/each}}
   </ul>
 {{/with}}

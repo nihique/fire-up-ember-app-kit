@@ -9,6 +9,8 @@ var App = Ember.Application.create({
 
 init();
 
+// private methods
+
 function init() {
   initRoutes();
   initModels();
@@ -26,11 +28,19 @@ function initModels() {
 
   import Tab from 'appkit/models/tab';
   App.Tab = Tab;
+
+  import TabItem from 'appkit/models/tab_item';
+  App.TabItem = TabItem;
+
+  import Food from 'appkit/models/food';
+  App.Food = Food;
 } 
 
 function initStore() {
   import Store from 'appkit/store';
   App.Store = Store;
 }
+
+// export
 
 export default App;
