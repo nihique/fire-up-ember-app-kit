@@ -1,4 +1,5 @@
 var Table = DS.Model.extend({
+  tab: DS.attr('App.Table')
 });
 
 Table.FIXTURES = [
