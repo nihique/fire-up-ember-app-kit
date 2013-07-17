@@ -1,10 +1,18 @@
-<h2>Table {{id}}</h2>
+<div class="row">
 
-{{#with tab}}
-  <h3>Tab {{id}}</h3>
-  <ul>
-    {{#each tabItem}}
-      <li><strong>{{food.name}}</strong> for <em>{{cents}} cents</em></li>
-    {{/each}}
-  </ul>
-{{/with}}
+  <div id="food" class="span2">
+      {{render "food"}}
+  </div>
+
+  <div class="span6">
+    {{#with tab}}
+      <h2>Table {{id}}</h2>
+      <ul>
+        {{#each tabItem}}
+          <li><strong>{{food.name}}</strong> for <em>{{cents}} cents</em></li>
+        {{/each}}
+      </ul>
+    {{/with}}  
+  <div>
+
+</div>
