@@ -15,6 +15,7 @@ function init() {
   initRoutes();
   initModels();
   initStore();
+  initHelpers();
 }
 
 function initRoutes() {
@@ -39,6 +40,10 @@ function initModels() {
 function initStore() {
   import Store from 'appkit/store';
   App.Store = Store;
+}
+
+function initHelpers() {
+  import price from 'appkit/helpers/price';
 }
 
 // export
