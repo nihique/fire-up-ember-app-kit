@@ -4,14 +4,17 @@
       {{render "food"}}
   </div>
 
+  {{! TODO: refactor to TabController }}
   <div class="span6">
     {{#with tab}}
       <h2>Table {{id}}</h2>
+      {{! TODO: style tab }}
       <ul>
         {{#each tabItem}}
           <li><strong>{{food.name}}</strong> for <em>{{price cents}}</em></li>
         {{/each}}
       </ul>
+      {{! TODO: show total price }}
     {{/with}}  
   <div>
 
